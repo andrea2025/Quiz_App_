@@ -79,11 +79,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
         if (checkYellow && checkBlue && checkRed) {
-            correctAnswer = correctAnswer + 3;
-
-        } else if (checkYellow && checkBlue && !checkRed || !checkYellow && checkBlue && checkRed
-                || checkYellow && !checkBlue && checkRed) {
-            correctAnswer += 2;
+            correctAnswer = correctAnswer + 1;
         } else {
 
         }
