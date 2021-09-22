@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+    <string name="question_1">Question 1</string>
+    <string name="how_many_days_do_we_have_in_a_week">How many days do we have in a week?</string>
+    <string name="_5">5</string>
+    <string name="_7">7</string>
+    <string name="question_2">Question 2</string>
+    <string name="how_many_letters_are_there_in_the_english_alphabet">How many letters are there in the English alphabet?</string>
+    <string name="question_3">Question 3</string>
+    <string name="how_many_primary_colors_are_there_select_three">How many primary colors are there(select three)</string>
+    <string name="red">Red</string>
+    <string name="yellow">Yellow</string>
+    <string name="green">Green</string>
+    <string name="blue">Blue</string>
+    <string name="question_4">Question 4</string>
+    <string name="which_is_the_tallest_animal_on_the_earth">Which is the tallest animal on the earth?</string>
+    <string name="girraffe">Girraffe</string>
+    <string name="elephant">Elephant</string>
+    <string name="question_5">Question 5</string>
+    <string name="how_many_planets_are_there_in_our_solar_system">How many planets are there in our solar system?</string>
+</resources>
