@@ -61,26 +61,26 @@ public class MainActivity extends AppCompatActivity {
 
 
         if (btnSeven == R.id.answerSeven) {
-            correctAnswer = correctAnswer + 1;
+            correctAnswer += 1;
         }
 
         Editable editable = answerAlphabet.getText();
         String alphabet = editable.toString();
         if (alphabet.equals("26")) {
-            correctAnswer = correctAnswer + 1;
+            correctAnswer +=  1;
         }
 
         Editable editablePlanet = answerPlanet.getText();
         String planet = editablePlanet.toString();
         if (planet.equals("9")) {
-            correctAnswer = correctAnswer + 1;
+            correctAnswer +=  1;
         }
         if (btnGiraffe == R.id.answerGirraffe) {
-            correctAnswer = correctAnswer + 1;
+            correctAnswer += 1;
         }
 
         if (checkYellow && checkBlue && checkRed && !checkGreen) {
-            correctAnswer = correctAnswer + 1;
+            correctAnswer += 1;
         } else {
 
         }
