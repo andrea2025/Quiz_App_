@@ -57,6 +57,7 @@ public class MainActivity extends AppCompatActivity {
         boolean checkYellow = checkBoxYellow.isChecked();
         boolean checkRed = checkBoxRed.isChecked();
         boolean checkBlue = checkBoxBlue.isChecked();
+        boolean checkGreen = checkBoxGreen.isChecked();
 
 
         if (btnSeven == R.id.answerSeven) {
@@ -78,7 +79,7 @@ public class MainActivity extends AppCompatActivity {
             correctAnswer = correctAnswer + 1;
         }
 
-        if (checkYellow && checkBlue && checkRed) {
+        if (checkYellow && checkBlue && checkRed && !checkGreen) {
             correctAnswer = correctAnswer + 1;
         } else {
 
